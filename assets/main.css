@@ -131,7 +131,7 @@ table td { border: 1px solid #e8e8e8; }
 /*ggggg*/
 .post-link { margin: 0px 3px 3px 3px; display: block; color: #230b29; font-size: 19.2px; }
 
-.post-link:hover { margin: 0px 3px 3px 3px; display: block; color: black; font-size: 19.2px; text-decoration: none; }
+.post-link:hover { text-decoration: none; color: black; font-size: 19.2px; }
 
 .title-list-in-one { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2); transition: 0.2s ease-out; border-radius: 5px; }
 
