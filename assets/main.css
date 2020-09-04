@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
@@ -128,15 +129,12 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
-/*ggggg*/
+/*ggggg这里和head有重复，但是不熟ssas，先用head*/
 .post-link { margin: 0px 3px 3px 3px; display: block; color: #230b29; font-size: 19.2px; }
 
 .post-link:hover { text-decoration: none; color: black; font-size: 19.2px; }
 
-.title-list-in-one { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2); transition: 0.2s ease-out; border-radius: 5px; }
-
-.title-list-in-one:hover { box-shadow: 0 0px 9px 0 rgba(0, 0, 0, 0.2); }
-
+/* 暂时 .title-list-in-one{ box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2); transition: 0.2s ease-out; border-radius: 5px; } .title-list-in-one:hover { box-shadow: 0 0px 9px 0 rgba(0,0,0,0.2); } */
 /** Posts */
 .post-header { margin-bottom: 30px; }
 
