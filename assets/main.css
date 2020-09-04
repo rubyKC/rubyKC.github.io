@@ -128,7 +128,9 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-meta { font-size: 14px; color: #828282; }
 
-.post-link { display: block; font-size: 24px; }
+.post-link { display: block; color: #230b29; font-size: 19.2px; }
+
+.post-link:hover { display: block; color: black; font-size: 19.2px; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
@@ -273,5 +275,9 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
+.title-list-in-one { box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2); transition: 0.2s ease-out; border-radius: 5px; }
+
+.title-list-in-one:hover { box-shadow: 0 0px 9px 0 rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=main.css.map */
